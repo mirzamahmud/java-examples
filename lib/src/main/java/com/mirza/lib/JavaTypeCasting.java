@@ -9,7 +9,9 @@ public class JavaTypeCasting {
     double numDouble = numInt; // 10.0
 
     void displayImplicitTypeCast(){
+        System.out.println("====================== Implicit Type Cast =============================");
         System.out.println("Implicit Type Cast: " + numDouble);
+
     }
 
     // ====================== explicit type casting (data loss) =============================
@@ -17,7 +19,9 @@ public class JavaTypeCasting {
     int numPi = (int) pi;
 
     void displayExplicitTypeCast(){
+        System.out.println("============================ Explicit Type Cast ==================================");
         System.out.println("Explicit Type Cast: " + numPi);
+
     }
 
     // ===================== type casting between different data types ========================
@@ -25,6 +29,8 @@ public class JavaTypeCasting {
     char charA = (char) (num1 + 'A');
 
     void displayDifferentTypeCasting(){
+        System.out.println("============================ Different Type Cast ==================================");
         System.out.println("Different Type Casting: " + charA);
+
     }
 }

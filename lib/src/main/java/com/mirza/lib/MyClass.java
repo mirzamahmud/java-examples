@@ -23,5 +23,8 @@ public class MyClass {
         javaOperators.exampleArithmeticOperator();
         javaOperators.exampleComparisonOperator();
         javaOperators.exampleLogicalOperator();
+        // ================ String ======================
+        JavaString javaString = new JavaString("Mirza", "Mahmud", "Hossan");
+        javaString.displayOutput();
     }
 }

@@ -16,6 +16,7 @@ public class JavaDataTypes {
     boolean isTrue = true;
 
     void displayPrimitiveType(){
+        System.out.println("========================== Primitive Types ==========================");
         System.out.println("Byte: " + byteNumber);
         System.out.println("Short: " + shortNumber);
         System.out.println("Int: " + intNumber);
@@ -24,6 +25,7 @@ public class JavaDataTypes {
         System.out.println("Double: " + doubleNumber);
         System.out.println("Char: " + charType);
         System.out.println("Boolean: " + isTrue);
+
     }
 
     // ===================== non primitive or reference data type =================
@@ -31,9 +33,11 @@ public class JavaDataTypes {
     String name = "Mirza Mahmud Hossan";
 
     void displayNonPrimitiveType(){
+        System.out.println("========================== Non-Primitive Types ==========================");
         for(int index = 0; index < intArray.length; index++){
             System.out.println("Array: " + intArray[index]);
         }
         System.out.println("String: " + name);
+
     }
 }

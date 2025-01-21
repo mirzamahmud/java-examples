@@ -5,6 +5,7 @@ public class JavaVaribale {
     int myAge = 26;
 
     void display(){
+        System.out.println("========================== Variables ==========================");
         System.out.println("Name: " + myName);
         System.out.println("Age: " + myAge);
     }
