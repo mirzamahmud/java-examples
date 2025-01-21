@@ -26,5 +26,8 @@ public class MyClass {
         // ================ String ======================
         JavaString javaString = new JavaString("Mirza", "Mahmud", "Hossan");
         javaString.displayOutput();
+        // ================ conditional statement =======
+        JavaConditionalStatement javaConditionalStatement = new JavaConditionalStatement(10);
+        javaConditionalStatement.exampleOfConditionalStatement();
     }
 }
