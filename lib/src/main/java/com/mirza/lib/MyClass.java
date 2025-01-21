@@ -29,5 +29,8 @@ public class MyClass {
         // ================ conditional statement =======
         JavaConditionalStatement javaConditionalStatement = new JavaConditionalStatement(10);
         javaConditionalStatement.exampleOfConditionalStatement();
+        // ================ switch statement ============
+        JavaSwitchStatement javaSwitchStatement = new JavaSwitchStatement(3);
+        javaSwitchStatement.exampleOfSwitchStatement();
     }
 }
