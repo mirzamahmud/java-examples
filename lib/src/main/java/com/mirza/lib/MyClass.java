@@ -41,5 +41,11 @@ public class MyClass {
         // ================ Break Keyword ===============
         JavaBreakKeyword javaBreakKeyword = new JavaBreakKeyword();
         javaBreakKeyword.exapleOfBreakKeyword();
+        // ================ Continue Keyword ============
+        JavaContinueKeyword javaContinueKeyword = new JavaContinueKeyword();
+        javaContinueKeyword.exampleOfContinueKeyword();
+        // ================ Array =======================
+        JavaArray javaArray = new JavaArray();
+        javaArray.exapleOfArray();
     }
 }
