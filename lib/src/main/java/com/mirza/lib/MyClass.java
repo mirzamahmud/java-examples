@@ -38,5 +38,8 @@ public class MyClass {
         // ================ For Loop ====================
         JavaForLoop javaForLoop = new JavaForLoop();
         javaForLoop.exampleOfForLoop();
+        // ================ Break Keyword ===============
+        JavaBreakKeyword javaBreakKeyword = new JavaBreakKeyword();
+        javaBreakKeyword.exapleOfBreakKeyword();
     }
 }
