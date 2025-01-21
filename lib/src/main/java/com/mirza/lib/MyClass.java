@@ -35,5 +35,8 @@ public class MyClass {
         // ================ While Loop ==================
         JavaWhileLoop javaWhileLoop = new JavaWhileLoop();
         javaWhileLoop.exampleOfWhileLoop();
+        // ================ For Loop ====================
+        JavaForLoop javaForLoop = new JavaForLoop();
+        javaForLoop.exampleOfForLoop();
     }
 }
