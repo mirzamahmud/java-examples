@@ -46,6 +46,6 @@ public class MyClass {
         javaContinueKeyword.exampleOfContinueKeyword();
         // ================ Array =======================
         JavaArray javaArray = new JavaArray();
-        javaArray.exapleOfArray();
+        javaArray.exampleOfArray();
     }
 }

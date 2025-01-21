@@ -10,7 +10,7 @@ public class JavaArray {
         numberArray = new int[10];
     }
 
-    void exapleOfArray(){
+    void exampleOfArray(){
         System.out.println("=============================== Array ==================================");
         initializeArray();
         for(int i = 0; i < numberArray.length; i++) {
