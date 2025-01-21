@@ -32,5 +32,8 @@ public class MyClass {
         // ================ switch statement ============
         JavaSwitchStatement javaSwitchStatement = new JavaSwitchStatement(3);
         javaSwitchStatement.exampleOfSwitchStatement();
+        // ================ While Loop ==================
+        JavaWhileLoop javaWhileLoop = new JavaWhileLoop();
+        javaWhileLoop.exampleOfWhileLoop();
     }
 }
