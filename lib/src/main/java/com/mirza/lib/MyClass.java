@@ -47,5 +47,8 @@ public class MyClass {
         // ================ Array =======================
         JavaArray javaArray = new JavaArray();
         javaArray.exampleOfArray();
+        // ================ For-Each Loop ===============
+        JavaForEachLoop javaForEachLoop = new JavaForEachLoop();
+        javaForEachLoop.exampleOfForEach();
     }
 }
