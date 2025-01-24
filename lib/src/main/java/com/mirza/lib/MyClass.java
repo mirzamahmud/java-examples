@@ -52,5 +52,7 @@ public class MyClass {
         javaForEachLoop.exampleOfForEach();
         // ================ Multi-dimensional Array =====
         JavaMultiDimensionalArray javaMultiDimensionalArray = new JavaMultiDimensionalArray();
+        // ================ Methods =====================
+        JavaMethod javaMethod = new JavaMethod();
     }
 }
