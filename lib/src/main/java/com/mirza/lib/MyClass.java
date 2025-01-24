@@ -1,6 +1,10 @@
 package com.mirza.lib;
 
 public class MyClass {
+    // object -> is a instance of a class
+    // class -> is a template or blueprint
+
+
     // ============ main method =================
     public static void main(String[] args){
         // ================ java output ================
@@ -52,6 +56,7 @@ public class MyClass {
         javaForEachLoop.exampleOfForEach();
         // ================ Multi-dimensional Array =====
         JavaMultiDimensionalArray javaMultiDimensionalArray = new JavaMultiDimensionalArray();
+        javaMultiDimensionalArray.exampleOfMultidimensionalArray();
         // ================ Methods =====================
         JavaMethod javaMethod = new JavaMethod();
         javaMethod.exampleOfMethod();
