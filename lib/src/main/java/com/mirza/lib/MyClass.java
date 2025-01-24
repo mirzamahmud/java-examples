@@ -64,5 +64,11 @@ public class MyClass {
         // ================ Method overloading ==========
         JavaMethodOverloading javaMethodOverloading = new JavaMethodOverloading();
         javaMethodOverloading.exampleOfMethodOverloading();
+        // ================ Encapsulation ===============
+        JavaEncapsulation javaEncapsulation = new JavaEncapsulation();
+        javaEncapsulation.setNum1(10);
+        javaEncapsulation.setNum1(20);
+        System.out.println("=========================== Encapsulation ==============================");
+        System.out.println("Result of Encapsulation: " + (javaEncapsulation.getNum1() + javaEncapsulation.getNum2()));
     }
 }
