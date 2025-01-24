@@ -54,5 +54,7 @@ public class MyClass {
         JavaMultiDimensionalArray javaMultiDimensionalArray = new JavaMultiDimensionalArray();
         // ================ Methods =====================
         JavaMethod javaMethod = new JavaMethod();
+        javaMethod.exampleOfMethod();
+        javaMethod.exampleOfParameterisedMethod("Mirza Mahmud", 26);
     }
 }
