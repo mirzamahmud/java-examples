@@ -56,5 +56,8 @@ public class MyClass {
         JavaMethod javaMethod = new JavaMethod();
         javaMethod.exampleOfMethod();
         javaMethod.exampleOfParameterisedMethod("Mirza Mahmud", 26);
+        // ================ Method overloading ==========
+        JavaMethodOverloading javaMethodOverloading = new JavaMethodOverloading();
+        javaMethodOverloading.exampleOfMethodOverloading();
     }
 }
